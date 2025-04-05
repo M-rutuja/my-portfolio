@@ -68,7 +68,7 @@ const Portfolio = () => {
 
       <section className="resume">
         <h2>Resume</h2>
-        <a href="/Rutuja_Resume.pdf" download className="btn">Download Resume</a>
+        <a href="/Rutuja_Meshram-Resume.pdf" download className="btn">Download Resume</a>
       </section>
 
       <section>
