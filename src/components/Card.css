@@ -1,0 +1,60 @@
+.project-card {
+  background-color: hsla(182, 83%, 74%, 0.362);
+  border-radius: 12px;
+  padding:10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.project-tech {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  list-style-type: disc;
+  padding-left: 18px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #539cea;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn.view {
+  background-color: #39e360;
+}
+
+.btn.view:hover {
+  background-color: #1c7c31;
+}

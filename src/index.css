@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #dcd5db;
+  color: #333;
+}
+
+.portfolio-container {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 10px;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-header h1 {
+  font-size: 2.5rem;
+  color: #1e90ff;
+}
+
+.portfolio-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.portfolio-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #1e90ff;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.skill-badge {
+  background-color: #e0f0ff;
+  color: #1e90ff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.skill-badge:hover {
+  background-color: #b0d2ef;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume-button:hover {
+  background-color: #218838;
+}
+
+.portfolio-footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #777;
+  font-size: 0.9rem;
+}                       
+
+.project-grid {
+  display:list-item;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px; /* Increased gap between cards */
+  margin-top: 20px;
+}
